@@ -146,26 +146,50 @@ void part4(){
   buzzer.sound(0, 8*timing);
   buzzer.sound(NOTE_G5, 16*timing);
   buzzer.sound(0, 8*timing);
+  buzzer.sound(NOTE_AS5, 16*timing);
+  buzzer.sound(0, 8*timing);
+  buzzer.sound(NOTE_A5, 16*timing);
+  buzzer.sound(0, 8*timing);
+  buzzer.sound(NOTE_G5, 16*timing);
+  buzzer.sound(0, 16*timing);
+}
+
+void part41(){
+  buzzer.sound(NOTE_F5, 16*timing);
+  buzzer.sound(0, 32*timing);
+}
+
+void part42(){
+  buzzer.sound(NOTE_FS5, 16*timing);
+  buzzer.sound(0, 32*timing);
+}
+
+void part5(){
+  buzzer.sound(NOTE_C5, 16*timing);
+  buzzer.sound(0, 8*timing);
+  buzzer.sound(NOTE_E5, 16*timing);
+  buzzer.sound(0, 8*timing);
+  buzzer.sound(NOTE_G5, 16*timing);
+  buzzer.sound(0, 8*timing);
   buzzer.sound(NOTE_F5, 16*timing);
   buzzer.sound(NOTE_F5, 16*timing);
   buzzer.sound(0, 16*timing);
 }
 
-void part41(){
+void part51(){
   buzzer.sound(NOTE_F5, 8*timing);
   buzzer.sound(NOTE_G5, 8*timing);
   buzzer.sound(NOTE_A5, 16*timing);
   buzzer.sound(0, 32*timing);
 }
 
-void part42(){
+void part52(){
   buzzer.sound(NOTE_E5, 8*timing);
   buzzer.sound(NOTE_F5, 8*timing);
   buzzer.sound(NOTE_F5, 16*timing);
   buzzer.sound(0, 32*timing);
 }
-
-void part5(){
+void part6(){
   buzzer.sound(NOTE_AS5, 16*timing);
   buzzer.sound(0, 8*timing);
   buzzer.sound(NOTE_B5, 16*timing);
@@ -201,13 +225,23 @@ void melody(){
   part21();
   part14();
   part3();
-  part4();
-  part41();
-  part4();
-  part42();
+  part3();
   part4();
   part41();
   part5();
+  part51();
+  part4();
+  part42();
+  part5();
+  part52();
+  part6();
+  part1();
+  part11();
+  part1();
+  part12();
+  part1();
+  part13();
+  part14();
 }
 
 void play(){
