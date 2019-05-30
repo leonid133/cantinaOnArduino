@@ -200,7 +200,6 @@ void melody(){
   part2();
   part21();
   part14();
-  part14();
   part3();
   part4();
   part41();
@@ -208,7 +207,6 @@ void melody(){
   part42();
   part4();
   part41();
-  part5();
   part5();
 }
 
