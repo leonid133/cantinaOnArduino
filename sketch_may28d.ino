@@ -1,4 +1,4 @@
-#define timing 6
+#define timing 7
 #include <Buzzer.h>
 Buzzer buzzer(7, 10);
 
